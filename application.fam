@@ -1,0 +1,12 @@
+App(
+    appid="template",
+    name="template",
+    apptype=FlipperAppType.PLUGIN,
+    entry_point="template_app",
+    stack_size=1 * 1024,
+    cdefines=["TEMPLATE"],
+    requires=[
+        "gui",
+    ],
+    order=10,
+)
